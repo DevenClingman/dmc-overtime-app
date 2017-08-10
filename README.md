@@ -14,4 +14,4 @@
  - Needs to be documented if employee did not log overtime
  
  ## UI:
- Bootstrap -> formatting
+  - Bootstrap -> formatting
