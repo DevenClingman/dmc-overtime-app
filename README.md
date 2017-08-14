@@ -15,3 +15,7 @@
  
  ## UI:
   - Bootstrap -> formatting
+
+  ## Refactor Todo
+
+  - Refactor user 

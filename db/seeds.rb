@@ -6,8 +6,15 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+1.times do |user|
+  User.create!(first_name: "Sammie", last_name: "Holst", email: "myemail@email.com", password: "asdfasdf", password_confirmation: "asdfasdf")
+end
+
+puts "1 User now exists"
+
 100.times do |post|
-  Post.create!(date: Date.today, rationale: "#{post} ratianle content")
+  Post.create!(date: Date.today, rationale: "#{post} rationale content", user: User.first)
 end
 
 puts "100 posts created"
+
