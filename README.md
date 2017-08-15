@@ -18,4 +18,5 @@
 
   ## Refactor Todo
 
+- Aff full_name method for users
   - Refactor user 
