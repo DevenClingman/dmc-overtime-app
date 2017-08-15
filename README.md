@@ -14,9 +14,9 @@
  - Needs to be documented if employee did not log overtime
  
  ## UI:
-  - Bootstrap -> formatting
+  x Bootstrap -> formatting
 
   ## Refactor Todo
 
 - Aff full_name method for users
-  - Refactor user 
+  - Refactor user association
