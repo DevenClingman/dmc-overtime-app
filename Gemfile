@@ -58,5 +58,6 @@ gem 'database_cleaner', '~> 1.6', '>= 1.6.1'
 gem 'devise', '~> 4.3'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+gem 'gritter', '~> 1.2'
 
 
