@@ -15,6 +15,7 @@
  
  ## UI:
   x Bootstrap -> formatting
+  Icons from Font Awesome
 
   ## Refactor Todo
 
