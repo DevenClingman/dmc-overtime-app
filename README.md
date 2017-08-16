@@ -22,3 +22,11 @@
 
 - Aff full_name method for users
   - Refactor user association integration test in post_spec
+
+## Todo:
+  1. add status to Post
+    db migration
+  2. status needs to be required
+  3. Status has default value
+  4. Implement approval stages
+  5. locking
