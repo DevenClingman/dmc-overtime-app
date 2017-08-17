@@ -12,6 +12,12 @@ end
 
 puts "1 User now exists"
 
+1.times do |user|
+  AdminUser.create!(first_name: "Deven", last_name: "clingman", email: "myadmin@admin.com", password: "asdfasdf", password_confirmation: "asdfasdf")
+end
+
+puts "1 Admin now exists"
+
 100.times do |post|
   Post.create!(date: Date.today, rationale: "#{post} rationale content", user: User.first)
 end
