@@ -23,6 +23,8 @@
 - Aff full_name method for users
   - Refactor user association integration test in post_spec
 
+  Refactor form post/_form for admin suer with status
+
 ## Todo:
   1. add status to Post
     db migration
