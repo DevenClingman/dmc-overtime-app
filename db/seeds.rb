@@ -19,7 +19,7 @@ end
 puts "1 Admin now exists"
 
 100.times do |post|
-  Post.create!(date: Date.today, rationale: "#{post} rationale content", user: User.first)
+  Post.create!(date: Date.today, rationale: "#{post} rationale content", user: User.first, overtime_request: 2.5)
 end
 
 puts "100 posts created"
