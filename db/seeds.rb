@@ -7,13 +7,22 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 1.times do |user|
-  User.create!(first_name: "Sammie", last_name: "Holst", email: "myemail@email.com", password: "asdfasdf", password_confirmation: "asdfasdf")
+  User.create!(first_name: "Sammie", 
+                last_name: "Holst", email: "myemail@email.com",
+                password: "asdfasdf", 
+                password_confirmation: "asdfasdf",
+                phone: "3853991830")
 end
 
 puts "1 User now exists"
 
 1.times do |user|
-  AdminUser.create!(first_name: "Deven", last_name: "clingman", email: "myadmin@admin.com", password: "asdfasdf", password_confirmation: "asdfasdf")
+  AdminUser.create!(first_name: "Deven",
+                   last_name: "clingman", 
+                   email: "myadmin@admin.com",
+                  password: "asdfasdf", 
+                  password_confirmation: "asdfasdf",
+                  phone: "3853991830")
 end
 
 puts "1 Admin now exists"
