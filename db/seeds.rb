@@ -31,5 +31,9 @@ puts "1 Admin now exists"
   Post.create!(date: Date.today, rationale: "#{post} rationale content", user: User.first, overtime_request: 2.5)
 end
 
+100.times do |audit_log|
+  AuditLog.create!(user_id: User.last.id, status: 0, start_date: (Date.today - 6.days))
+end
+
 puts "100 posts created"
 
